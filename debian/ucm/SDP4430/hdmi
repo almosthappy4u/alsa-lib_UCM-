@@ -1,5 +1,5 @@
-# Use case Configuration for TI SDP4430 HiFi Low Power Music
-# Template by Liam Girdwood <lrg@slimlogic.co.uk>
+# Use case Configuration for TI SDP4430 HDMI 
+# Template By Liam Girdwood <lrg@slimlogic.co.uk>
 
 SectionVerb {
   	EnableSequence [
@@ -23,24 +23,20 @@ SectionVerb {
 	# Optional TQ and ALSA PCMs
 	Value {
 		TQ "Music"
-		PlaybackPCM "hw:0,6"
+		PlaybackPCM "hw:0,7"
 	}
+
 }
 
-SectionDevice."Headset".0 {
+SectionDevice."HDMI".0 {
 	Comment "SDP4430 3.5mm Headset"
 	
 	EnableSequence [
                 cdev "hw:SDP4430"
-                cset "name='HS Left Playback' 1"
-                cset "name='HS Right Playback' 1"
-                cset "name='Headset Playback Volume' 13"
 	]
 
 	DisableSequence [
                 cdev "hw:SDP4430"
-		cset "name='HS Right Playback' 0"
-		cset "name='HS Left Playback' 0"
-                cset "name='Headset Playback Volume' 0"
 	]
 }
+

@@ -1,5 +1,5 @@
-# Use case Configurationfor TI SDP4430 HiFi Music
-# By Liam Girdwood <lrg@slimlogic.co.uk>
+# Use case Configurationfor TI SDP4430 FMAnalog Music
+# Template by Liam Girdwood <lrg@slimlogic.co.uk>
 
 SectionVerb {
   	EnableSequence [
