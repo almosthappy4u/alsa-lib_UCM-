@@ -1,5 +1,5 @@
 # Use case Configuration for TI SDP4430 HiFi Music
-# By Liam Girdwood <lrg@slimlogic.co.uk>
+# Template by Liam Girdwood <lrg@slimlogic.co.uk>
 
 SectionVerb {
   	EnableSequence [
@@ -28,13 +28,6 @@ SectionVerb {
                 cset "name='Headset Playback Volume' 0"
 	]
 
- 	# Optional TQ and ALSA PCMs
-#	Value {
-#		TQ "Music"
-#		PlaybackPCM "hw:0,0"
-#                PlaybackVolume "name='DL1 Media Playback Volume' 90,90"
-#                PlaybackSwitch "name='DL1 PDM Switch' 1"
-#	}
 }
 
 SectionDevice."Headset".0 {
@@ -54,30 +47,4 @@ SectionDevice."Headset".0 {
                 cset "name='Headset Playback Volume' 0"
 	]
 }
-
-#SectionModifier."RecordMedia".0 {
-#	SupportedDevice [
-#		"Headset"
-#	]
- #       EnableSequence [
- #         ....
- #       ]
- #
- #       DisableSequence [
- #         ...
- #       ]
- #
- #       TransitionSequence."ToModifierName" [
- #         ...
- #       ]
- #
- #       # Optional TQ and ALSA PCMs
- #       Value {
- #               TQ Voice
- #               CapturePCM "hw:1"
- #               PlaybackVolume "name='Master Playback Volume',index=2"
- #               PlaybackSwitch "name='Master Playback Switch',index=2"
- #       }
-#
-#}
 
