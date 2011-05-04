@@ -1,3 +1,9 @@
+alsa-lib (1.0.24.1-0ubuntu5+ti1) maverick; urgency=low
+
+  * Add hdmi config file for UCM and correct some config headers
+
+ -- ubuntu <ubuntu@agm-boarddos>  Wed, 04 May 2011 17:39:40 -0500
+
 alsa-lib (1.0.24.1-0ubuntu5) natty; urgency=low
 
   * Add ALSA UCM config files for omap4 (LP: #746023)
