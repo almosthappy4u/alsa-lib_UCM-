@@ -1,8 +1,14 @@
+alsa-lib (1.0.24.1-0ubuntu5+ti2) maverick; urgency=low
+
+  * Add hifiAndRecord UCM profile
+
+ -- Alejandro Gonzalez <x0092071@ti.com>  Thu, 12 May 2011 11:59:01 -0500
+
 alsa-lib (1.0.24.1-0ubuntu5+ti1) maverick; urgency=low
 
   * Add hdmi config file for UCM and correct some config headers
 
- -- ubuntu <ubuntu@agm-boarddos>  Wed, 04 May 2011 17:39:40 -0500
+ -- Alejandro Gonzalez <x0092071@ti.com>  Wed, 04 May 2011 17:39:40 -0500
 
 alsa-lib (1.0.24.1-0ubuntu5) natty; urgency=low
 
